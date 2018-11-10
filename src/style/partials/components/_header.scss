@@ -1,0 +1,185 @@
+
+/* HEADER */
+
+.header__top-line {
+	background-color: $color-darker;
+}
+
+.top-line__container {
+	height: 45px;
+    font-size: .6875rem;
+}
+
+.title {
+	margin-right: auto;
+	padding-left: 8px;
+}
+
+.title__link {
+	display: block;
+	padding: 9px 0 7px;
+	color: $color-accent;
+	font-family: 'STHeitiSC';
+	font-size: 1.625rem;
+	font-weight: lighter;
+	text-transform: uppercase;
+	&:hover{
+		color: $color-accent;
+	}
+}
+
+.search {
+	display: none;
+}
+
+.search__form {
+	display: flex;
+	height: 100%;
+	position: relative;
+}
+
+.search__input {
+	width: 0;
+	padding-left: 0;
+	color:$color-base;
+	text-transform: uppercase;
+	background-color: $color-darker;
+	&:focus {
+		outline: none!important;
+	}
+}
+
+.search__input_opened {
+	padding-left: 20px;
+	width: auto;
+	border-left: 1px solid $color-base;
+}
+
+.navbar-item {
+	.search__form {
+		margin: 0 auto;
+	}
+	.search__input_opened {
+		background-color: #fff;
+	}
+}
+
+.search__button {
+	background: none;
+}
+
+.search__button i {
+	padding-top: 16px;
+    height: 45px;
+    width: 47px;
+    font-size: 1rem;
+    &:hover {
+    	cursor: pointer;
+    }
+}
+
+.search__popup_invisible {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 47px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.login__button {
+	width: 145px;
+	color: $color-base;
+	background-color: $color-darker;
+	border-right: 1px solid $color-base;
+	border-left: 1px solid $color-base;
+	font-size: .6875rem;
+}
+
+.header__nav {
+	background-color: #fff;
+	height: 60px;
+}
+
+.container__toggler {
+	max-width: 500px;
+	margin-right: auto;
+	border-left: 1px solid $color-base;
+	z-index: 10;
+}
+
+.dropoff-menu{
+	background-color: #fff;
+}
+
+.navbar {
+	padding: 0;
+	width: 100%;
+}
+
+.navbar-nav {
+	width: 100%;
+	li {
+		flex-grow: 1
+	}
+}
+
+.navbar-item {
+	display: flex;
+	flex-grow: 1;
+	flex-basis: 25%;
+	border-right: 1px solid $color-base;
+	&:hover {
+		background-color: rgba(173, 173, 173, 0.15);
+	}
+}
+
+.navbar-nav .nav-item {
+	&:hover {
+		background-color: rgba(173, 173, 173, 0.15);
+	}
+}
+
+.navbar-item a {
+	text-align: center;
+	margin: auto;
+}
+
+.nav-item__link {
+	line-height: 55px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-toggler {
+	margin: 15px auto;
+	border: none;
+}
+
+.nav-link {
+	padding: 18px 1rem;
+	border-right: 1px solid #ced4da;
+}
+
+.nav-link, .nav-item__link {
+	font-size: 1rem;
+}
+
+.products-amount {
+	display: inline-block;
+	min-width: 20px;
+	color: #fff;
+	text-align: center;   
+	padding: 3px;
+	margin-left: 10px;
+	border-radius: 4px;
+	line-height: .75rem;
+	font-weight: 700;
+	font-size: .75rem;
+	background-color: $color-base;
+	&:hover {
+		background: $color-accent;
+	}
+}

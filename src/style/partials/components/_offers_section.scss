@@ -1,0 +1,45 @@
+
+/* OFFERS SECTION */
+
+.offers {
+	display: none;
+}
+
+.offers__wraper {
+	height: 230px;
+	background-color: $color-darker;
+}
+
+.offers__list {
+	display: flex;
+}
+
+.offers__list-item {
+	position: relative;
+	height: 100%;
+	margin-right: 20px;
+	&:last-child {
+		margin-right: 0;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+.offer__link-wrap {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	a {
+		margin: auto;
+		text-align: center;
+		background-color: rgba(36, 36, 36, 0.9);
+		max-width: 95%;
+		padding: 10px 20px;
+		color:  #fff;
+		font-size: 1.25rem;
+		text-transform: uppercase;
+	}
+}

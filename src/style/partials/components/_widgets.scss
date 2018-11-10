@@ -1,0 +1,29 @@
+
+/* BREADCRUMBS */
+
+.breadcrumb-bar {
+	display: none;
+	margin-right: auto;
+	ol {
+		margin: 6px 0 0;
+		padding: 0;
+	}
+}
+
+/* FLICKR */
+
+.flickr__img-list {
+	display: flex;
+    flex-wrap: wrap;
+    .flickr__item {
+    	width: 31%;
+    	margin-right: 8px;
+    	margin-top: 8px;
+    	&:nth-child(3n) {
+    		margin-right: 0;
+    	}
+    	img {
+    		width: 100%;
+    	}
+    }
+}

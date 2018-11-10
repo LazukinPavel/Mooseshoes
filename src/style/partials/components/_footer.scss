@@ -1,0 +1,88 @@
+
+/* FOOTER */
+
+.footer {
+	display: none;
+}
+
+.footer__widget-area {
+	height: 255px;
+	background-color: $color-darker;
+}
+
+.footer__widget_twitter {
+	display: none;
+}
+
+.footer__widget-content {
+	margin-top: 15px;
+	max-height: 190px;
+	overflow: hidden;
+}
+
+.footer__widget-name {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.footer__contacts {
+	height: 110px;
+	background-color: $color-darker;
+	.container {
+		height: 100%;
+	}
+}
+
+.footer__input-group {	
+	width: 250px;
+	height: 36px;
+}
+
+.email__input-field {
+	flex-grow: 1;
+	padding-left: 16px;
+	background-color: $color-dark;
+	color: $color-base;
+	font-family: Aller;
+	font-size: .75rem;
+	font-style: italic;
+}
+
+.button_arrow {
+	background-color: $color-base;
+	width: 36px;
+}
+
+.social__list {
+	display: flex;
+	li {
+		margin-left: 8px;
+	}
+	a {
+		display: flex;
+		height: 36px;
+		width: 36px;
+		background-color: $color-dark;
+		i{
+			margin: auto;
+		}
+		&:hover{
+			color: $color-dark;
+			background-color: $color-base;
+		}
+	}
+}
+
+.social__item:first-child {
+	margin-left: auto;
+}
+
+.footer__bottom-line {
+	height: 90px;
+	font-size: .75rem;
+	background-color: $color-dark;
+}
+
+.footer__nav-list {
+	display: flex;
+}

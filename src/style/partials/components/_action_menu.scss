@@ -1,0 +1,23 @@
+/* ACTION MENU */
+
+.action-menu {
+	display: flex;
+}
+
+.action-item {
+	color: $color-base;
+	width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+	margin-right: 3px;
+	a {
+		display: block;
+		height: 100%;
+		font-weight: 200;
+	}
+	a:hover {
+		color: $color-accent;
+	}
+}

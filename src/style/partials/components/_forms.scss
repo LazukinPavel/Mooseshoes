@@ -1,0 +1,50 @@
+input, button {
+	border: none;
+	padding: 0;	
+}
+
+.fa-search {
+	color: $color-base;
+}
+
+.button__search, .search_top input {
+	background-color: $color-darker;
+}
+
+//Login form (modal window)
+.modal-content {
+	background-color: $color-darker;
+	border-radius: 0;
+	.form-control {
+		background-color: $color-darker;
+		border-radius: 0;
+	}
+	.btn {
+		width: 100%;
+		background-color: $color-accent;
+		border-radius: 0;
+		padding: 0.5rem 0;
+    	color: #fff;
+	}
+}
+
+.nav-tabs {
+	flex-grow: 1;
+	align-items: stretch;
+	justify-content: space-around;
+	border: none;
+	li {
+		flex: 1;
+		display: flex;
+		a {
+			text-align: center;
+			flex: 1;
+			padding: 0.5rem 0;
+    		color: #fff;
+    		background-color: $color-base;
+		}
+	}
+	.active {
+		background-color: $color-accent;
+	}
+}	
