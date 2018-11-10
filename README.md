@@ -1,4 +1,7 @@
-##Web Store Frontend project
+Web Store Frontend project
+
+https://lazukinpavel.github.io/Mooseshoes/
+
 ---
 
 ### General Descriptions
